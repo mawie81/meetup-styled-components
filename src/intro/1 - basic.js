@@ -19,6 +19,13 @@ function App({ className }) {
     <div className={className}>
       <Button primary>Primary Button</Button>
       <Button>Secondary Button</Button>
+      <div
+        css={`
+          border: 1px solid red;
+        `}
+      >
+        This works only with the babel plugin
+      </div>
     </div>
   );
 }
