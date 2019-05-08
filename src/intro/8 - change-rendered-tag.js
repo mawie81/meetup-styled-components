@@ -6,6 +6,7 @@ const Button = styled.button`
   padding: 6px 12px;
   color: white;
   font-size: 18px;
+  font-family: "Comic Sans MS";
   background-color: ${props => (props.primary ? "#00b2a5" : "#ffa64c")};
 `;
 
